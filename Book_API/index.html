@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book API</h1>
+        <div id="message-container"></div>
+        <form id="book-form">
+            <input type="text" id="book-id" placeholder="Book ID" required>
+            <input type="text" id="book-name" placeholder="Book Name" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="text" id="author" placeholder="Author Name" required>
+            <input type="number" id="price" placeholder="Price" step="0.01" required>
+            <div class="form-buttons">
+                <button type="submit" class="add">Add/Update Book</button>
+                <button type="button" id="clear-form">Clear Form</button>
+            </div>
+        </form>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search books...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <table id="book-table">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Book Name</th>
+                    <th>Category</th>
+                    <th>Author Name</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

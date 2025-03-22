@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" onkeypress="debouncing()" placeholder="enter your search">
+    <div id="result"></div>
+    <script>
+        function api(){
+            console.log("calling api.....");
+            let resultBox =document.getElementById("result");
+            resultBox.innerText="these are the results"  ;
+            
+        }
+
+        function Debounce(fn,delay){
+            let timer =null;
+            return function(){
+                if (timer) {
+                    clearTimeout(timer)
+                }
+                timer = setTimeout(()=>{
+                  fn();
+                },delay)
+            }
+        }
+
+        let debouncing = Debounce(api,3000);
+    </script>
+</body>
+</html>
