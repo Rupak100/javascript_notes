@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.task-input, .task-desc {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.task-input:focus, .task-desc:focus {
+    border-color: #777;
+    box-shadow: 0 0 8px rgba(100, 100, 100, 0.1);
+}
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.button:hover {
+    transform: scale(1.05);
+}
+.add-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.edit-btn {
+    background-color: #FFA500;
+    color: white;
+}
+.delete-btn, .undo-btn {
+    background-color: #f44336;
+    color: white;
+}
+.complete-btn {
+    background-color: #6495ED;
+    color: white;
+}
+.task {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.task.completed {
+    color: #999;
+    text-decoration: line-through;
+}
+.task p {
+    margin: 5px 0;
+}
+.tasks {
+    margin-top: 20px;
+}
