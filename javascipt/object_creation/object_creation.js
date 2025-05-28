@@ -5,7 +5,7 @@
 // }
 // console.log(obj1);
 
-// // 2.new Object
+// // // 2.new Object
 // let obj2 = new Object();
 // obj2.name ="rupak";
 // obj2.age=23;
@@ -64,18 +64,18 @@
 // console.log(obj63);
 
 // 7 . factory function
-function factory(name,age){
-    return{
-        name,
-        age,
-        print:function(){
-            console.log(`hi there !! ${this.name}`)
-        }
-    }
-}
+// function factory(name,age){
+//     return{
+//         name,
+//         age,
+//         print:function(){
+//             console.log(`hi there !! ${this.name}`)
+//         }
+//     }
+// }
 
-let obj7 =factory("rupak",23);
-console.log(obj7.print())
+// let obj7 =factory("rupak",23);
+// console.log(obj7.print())
 
 // // 8.json parse
 // let jsonstr ='{"name":"rupak","age":"23"}';

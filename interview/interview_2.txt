@@ -1,0 +1,19 @@
+Feedback
+Review of: JavaScript
+Review on Level: Junior Software Engineer / Software Engineer
+Results:
+85% Junior Software Engineer compliance. Compliant
+60% Software Engineer compliance. Compliant
+Strengths:
+Strong base foundation for JavaScript
+HTML/CSS
+Typescript
+Good understanding of Design Principles and Design Patterns
+Weaknesses:
+Need to work upon how things work behind the scenes
+Need to have a good hands-on experience with internal functions available in JavaScript
+Top required for next level:
+ES6
+JavaScript Framework
+Recommended reading / modules:
+https://daily.dev/blog/javascript-latest-version-whats-new

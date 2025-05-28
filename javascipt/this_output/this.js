@@ -8,7 +8,7 @@
 //     }
 // }
  
-// console.log(o.show())
+// o.show();
 // let show2 = o.show;
  
 // console.log(show2())  // window as window is calling by default
@@ -24,7 +24,7 @@
 //     }
 // }
  
-// console.log(p.fun());
+// p.fun();
  
 // let p = {
 //     name : "x",
@@ -36,7 +36,7 @@
 //     }
 // }
  
-// console.log(p.fun());
+// p.fun();
  
  
 // let p = {
@@ -49,7 +49,7 @@
 //     }
 // }
  
-// console.log(p.fun());
+// p.fun();
  
  
 // let abc = [20,30,40];
@@ -73,7 +73,7 @@
 //     }
 // }
  
-// console.log(p2.transform());
+// p2.transform();
  
  
 // let p3 = {
@@ -85,7 +85,7 @@
 //         })
 //     }
 // }
-// console.log(p3.transform());
+// p3.transform();
  
  
 // let user = {
@@ -96,8 +96,9 @@
 //         function showAge(){
 //             console.log(this.age);   // undefined : as it have window as this
 //         }
- 
 //         showAge();
+//       let s =showAge.bind(this)
+//         s();
 //     }
 // }
  
