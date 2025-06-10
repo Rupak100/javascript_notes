@@ -11,8 +11,8 @@
 //   return user;
 // }
 
-// let a  = getInfo({name:"",age:2,isgood:false});
-// console.log(a)
+// let pel :User2 = getInfo({name:"",age:2,isgood:false});
+// console.log(pel);
 
 
 
@@ -47,7 +47,7 @@
 // array type
 
 // type arrayobj= string[];
-// let arr :arrayobj=["st",1]
+// let arr :arrayobj=["st"]
 
 
 
@@ -98,6 +98,13 @@
 
 
 // an interface exdtends another interface but a class implements another interface
+
+//  What is Declaration Merging?
+// Declaration merging means you can define the same interface multiple times, and TypeScript will automatically merge them into one.
+
+// This is unique to interfaces — type aliases do not support this feature.
+
+
 
 
 //abstract classess

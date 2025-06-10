@@ -238,4 +238,49 @@
 // }
  
 //   console.log(sum(1, 2, 3, 4, 5)); // 15
+
+
+
+
+
+
+// Getting the second maximum element from the array------------------------
+// let arr =[2,3,6,7,5,9,84,34];
+
+// let maxi =Math.max.apply(null,arr);
+// console.log(maxi);
+// let second =-Infinity;
+// arr.forEach((a)=>{
+//     if(a>second && a!==maxi){
+//         second =a;
+//     }
+// });
+// console.log(second)
+
+
+
+
+// Rotate the array by k---------------------------------------
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let k = 2;
+
+// k = k % arr.length; // To handle cases where k > arr.length
+// let rotatedArr = [...arr.slice(-k), ...arr.slice(0, -k)];
+
+// console.log(rotatedArr);
+
+
+
+// Remove duplicates is a sorted array
+
+// let arr =[0,0,1,1,1,2,2,2,3,5,5,5];
+
+// for(let i =0;i<arr.length-1;i++){
+//     if(arr[i]===arr[i+1]){
+//         arr.splice(i+1,1);
+//         i--;
+//     }
+// }
+
+// console.log(arr)
  

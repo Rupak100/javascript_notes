@@ -115,3 +115,23 @@ Less expensive than reflow, but still affects performance if done too often.
 Optimizing Repaint:
 Avoid unnecessary style changes.
 Use GPU-accelerated properties like transform and opacity instead of top and left.
+
+
+ In Simple Words:
+**async**:
+
+Loads in the background.
+
+Runs as soon as it's ready (could interrupt HTML parsing).
+
+Use when script doesn’t depend on DOM or other scripts.
+
+**defer**:
+
+Loads in the background.
+
+Waits for HTML to finish parsing before running.
+
+Use when script needs DOM to be fully built and must run in order.
+
+

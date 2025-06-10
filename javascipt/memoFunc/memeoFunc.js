@@ -7,7 +7,7 @@ function memo(fn){
     let store = {};
     return function(...args){
         let key =JSON.stringify(args);
-        if(!store[key]){
+        if(!(key in store)){
             store[key] = fn(...args);
         }
         return store[key];
